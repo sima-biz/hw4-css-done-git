@@ -1,0 +1,165 @@
+body {
+  font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+  background-color: rgb(58, 159, 159); 
+}
+
+.flex-cont{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#login-form,
+.logo,
+#form {
+  position: relative;
+  overflow: hidden;
+}
+
+#login-form {
+  height: 336px;
+  width: 727px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 0px;
+  margin: 40px auto;
+}
+
+#article {
+  height: 336px;
+  width: 50px;
+  padding-right: 10px;
+  float: left; 
+}
+
+#article p {
+  color: #6a737c;
+  font-size: 21px;
+  margin: -1px 0px 1px 1px;
+}
+
+#article svg{
+  fill: #6a737c;
+}
+
+#sidebar {
+  height: 336px;
+  width: 667px;
+  float: left;
+}
+
+#div1 {
+  color: #6a737c;
+  height: 5px;
+  width: 664px;
+  font-size: 15px;
+  margin: -13px 0 30px 0px;  
+}
+
+#div2 {
+  color: #6a737c;
+  height: 100px;
+  width: 664px;
+  background-color: #eff0f1;
+  font-family: Consolas,Menlo,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New,monospace,sans-serif;
+  font-size: 13px;
+}
+
+.colortext1 {
+  color: #101094;
+}
+
+.colortext2 {
+  color: #7D2727;
+}
+
+a {
+  color: #3a61d8;
+}
+
+#div3 {
+  color: #6a737c;
+  height: 92px;
+  width: 664px;
+}
+
+#sidebar1-2 {
+  height: 75px;
+  width: 270px;
+  float: left;
+  position: absolute;
+  margin: 0px 0px 0px 0px;
+  font-size: 13px;
+}
+
+#sidebar2-3 {
+  height: 75px;
+  width: 197px;
+  float: left;
+  position: absolute;
+  margin: 0px 0px 0px 270px;
+  font-size: 12px;  
+}
+
+#sidebar3-3 {
+  height: 75px;
+  width: 190px;
+  position: absolute;
+  margin: 0px 0px 0px 467px;
+  font-size: 13px;
+}
+
+#hr1{
+  height: 0px;
+  width: 663px;
+  margin: 3px 0px 0px 0px;
+  background: #6a737c;
+  position: absolute;
+}
+
+#div4 {
+  color: #6a737c;
+  font-size: 13px;
+  height: 50px;
+  width: 664px;  
+}
+
+.a-comment::before {
+  content: " ";
+  display: block;
+  width: 99.6%;
+  height: 2px;
+  background: #6a737c;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.a-comment::after {
+  content: " ";
+  display: block;
+  width: 720px;
+  height: 2px;
+  background: #6a737c;
+  margin-bottom: 20px;
+  margin-top: 0px;
+  margin: 1px 0px 0px -56px;
+  
+}
+
+.pseudo-element::first-letter {
+  color: #6a737c;
+  font-size: 15px;
+  display: block;
+  float: left;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+#div5 {
+  color: #6a737c;
+  font-size: 13px;
+  height: 37px;
+  width: 664px;
+  padding: 0px;
+  margin: -10px 0px -13px 0px;  
+}
+
